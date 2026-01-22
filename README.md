@@ -1,2 +1,86 @@
-# tool_store
-TOOLSTORE — modern tool shop website built with HTML, CSS, JavaScript and React. Responsive design, product catalog and cart.
+# TOOL-STORE
+# 🔧 TOOLSTORE — Магазин строительной техники
+
+TOOLSTORE — современный и адаптивный веб-сайт интернет-магазина строительной, электро- и профессиональной техники.  
+Проект создан с использованием **HTML, CSS, JavaScript и React** с акцентом на чистый код, удобный интерфейс и масштабируемость.
+
+---
+
+## 🚀 Демо
+👉 (добавь ссылку на GitHub Pages / Vercel / Netlify)
+
+---
+
+## 🛠️ Технологии
+- HTML5  
+- CSS3 (Flexbox, Grid)  
+- JavaScript (ES6+)  
+- React  
+- Fetch API  
+- LocalStorage  
+
+---
+
+## ✨ Возможности
+  - 📦 Каталог строительных и электроинструментов  
+  - 🛒 Корзина покупок (добавление, удаление, подсчёт суммы)  
+  - 🔍 Поиск и фильтрация товаров  
+  - ⭐ Карточки товаров с ценами и описанием  
+  - 📱 Полностью адаптивный дизайн (Mobile / Tablet / Desktop)  
+  - ⚙️ Компонентный подход React  
+  - 🔗 Подготовка к подключению backend / API  
+  
+  ---
+  
+  ## 📂 Структура проекта
+  toolstore/
+    ├── public/
+    │ └── index.html
+  ├── src/
+  │ ├── components/
+  │ │ ├── Header.jsx
+  │ │ ├── ProductCard.jsx
+  │ │ ├── Cart.jsx
+  │ │ └── Footer.jsx
+  │ ├── pages/
+  │ │ ├── Home.jsx
+  │ │ └── Catalog.jsx
+  │ ├── styles/
+  │ │ └── style.css
+  │ ├── data/
+  │ │ └── products.json
+  │ ├── App.jsx
+  │ └── main.jsx
+  └── package.json
+  🎨 Дизайн
+
+Современный индустриальный стиль
+
+Тёмная цветовая схема с акцентами
+
+Крупные кнопки и понятная навигация
+
+UX ориентирован на e-commerce
+
+📌 Планы по развитию
+
+🔐 Авторизация пользователей
+
+💳 Онлайн-оплата
+
+📦 Backend (Node.js / Firebase)
+
+🧠 Админ-панель
+
+🌍 Мультиязычность
+
+📄 Лицензия
+
+Этот проект создан для учебных и демонстрационных целей.
+Свободен для использования и доработки.
+
+👤 Автор
+
+Abdulbosit
+Frontend Developer / UI Designer
+
