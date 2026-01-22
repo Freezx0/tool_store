@@ -1,87 +1,20 @@
-# TOOL-STORE
-# 🔧 TOOLSTORE — Магазин строительной техники
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-TOOLSTORE — современный и адаптивный веб-сайт интернет-магазина строительной, электро- и профессиональной техники.  
-Проект создан с использованием **HTML, CSS, JavaScript и React** с акцентом на чистый код, удобный интерфейс и масштабируемость.
+# Run and deploy your AI Studio app
 
----
+This contains everything you need to run your app locally.
 
-## 🚀 Демо
-👉 (добавь ссылку на GitHub Pages / Vercel / Netlify)
+View your app in AI Studio: https://ai.studio/apps/drive/1L6p1GE1MhWuUlt0EUfJwyDUmNssqOlnA
 
----
+## Run Locally
 
-## 🛠️ Технологии
-- HTML5  
-- CSS3 (Flexbox, Grid)  
-- JavaScript (ES6+)  
-- React  
-- Fetch API  
-- LocalStorage  
+**Prerequisites:**  Node.js
 
----
 
-## ✨ Возможности
-  - 📦 Каталог строительных и электроинструментов  
-  - 🛒 Корзина покупок (добавление, удаление, подсчёт суммы)  
-  - 🔍 Поиск и фильтрация товаров  
-  - ⭐ Карточки товаров с ценами и описанием  
-  - 📱 Полностью адаптивный дизайн (Mobile / Tablet / Desktop)  
-  - ⚙️ Компонентный подход React  
-  - 🔗 Подготовка к подключению backend / API  
-  
-  ---
-  
-  ## 📂 Структура проекта
-  toolstore/
-      ├── public/
-      │ └── index.html
-    ├── src/
-    │ ├── components/
-    │ │ ├── Header.jsx
-    │ │ ├── ProductCard.jsx
-    │ │ ├── Cart.jsx
-    │ │ └── Footer.jsx
-    │ ├── pages/
-    │ │ ├── Home.jsx
-    │ │ └── Catalog.jsx
-    │ ├── styles/
-    │ │ └── style.css
-    │ ├── data/
-    │ │ └── products.json
-    │ ├── App.jsx
-    │ └── main.jsx
-    └── package.json
-  
-  🎨 Дизайн
-
-Современный индустриальный стиль
-
-Тёмная цветовая схема с акцентами
-
-Крупные кнопки и понятная навигация
-
-UX ориентирован на e-commerce
-
-📌 Планы по развитию
-
-🔐 Авторизация пользователей
-
-💳 Онлайн-оплата
-
-📦 Backend (Node.js / Firebase)
-
-🧠 Админ-панель
-
-🌍 Мультиязычность
-
-📄 Лицензия
-
-Этот проект создан для учебных и демонстрационных целей.
-Свободен для использования и доработки.
-
-👤 Автор
-
-Abdulbosit
-Frontend Developer / UI Designer
-
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
